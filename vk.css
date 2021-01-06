@@ -445,6 +445,10 @@ input.text, input.search, input.big_text, input.dark, .fakeinput, div[contentedi
     background: var(--post_back_sel) !important;
 }
 
+.language_name_hl {
+    background: var(--searchline) !important;
+}
+
 
 /* LINKS COLOR FIX */
 
