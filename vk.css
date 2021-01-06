@@ -121,6 +121,14 @@ body.new_header_design #side_bar ol li .left_row:hover {
     background-color: var(--searchline_sel) !important;
 }
 
+
+
+
+
+
+
+
+
 /* MESSAGES */
 .im-page .im-page--header {
     background: background: var(--post_back) !importantt;
@@ -391,3 +399,9 @@ input.text, input.search, input.big_text, input.dark, .fakeinput, div[contentedi
 }
 
 
+
+/* LINKS COLOR FIX */
+
+.im-page--back-btn, .im-mess-stack--tools a, .im-mess-stack--lnk, .left_menu_nav {
+    color: var(--text) !important;
+}
