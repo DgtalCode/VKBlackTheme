@@ -363,6 +363,9 @@ input.text, input.search, input.big_text, input.dark, .fakeinput, div[contentedi
     background-color: var(--searchline_sel) !important;
 }
 
+._im_dialog_unread_ct {
+    color: white !important;
+}
 
 
 
@@ -418,6 +421,7 @@ input.text, input.search, input.big_text, input.dark, .fakeinput, div[contentedi
 .results_container .result_list ul li.active {
     background: var(--searchline_sel) !important;
 }
+
 
 
 
