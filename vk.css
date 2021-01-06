@@ -197,7 +197,7 @@ box-shadow: 0 0 0 2px var(--background) !important;
 }
 
 .nim-dialog.nim-conversation-search-row.nim-csr_classic:hover {
-    background: var() !important
+    background: var(--post_back_sel) !important
 }
 
 .im-popular--name {
