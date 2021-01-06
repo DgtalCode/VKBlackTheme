@@ -53,7 +53,7 @@ body.new_header_design .TopSearch__input {
 
 
 a {
-    color: #2a72b9 !important;
+    color: #44609e !important;
 }
 
 
@@ -355,7 +355,7 @@ input.text, input.search, input.big_text, input.dark, .fakeinput, div[contentedi
 
 #profile_edit_act, .flat_button.secondary, .flat_button {
     background-color: var(--btn) !important;
-    color: white
+    color: white !important;
 }
 
 
@@ -402,6 +402,6 @@ input.text, input.search, input.big_text, input.dark, .fakeinput, div[contentedi
 
 /* LINKS COLOR FIX */
 
-.im-page--back-btn, .im-mess-stack--tools a, .im-mess-stack--lnk, .left_menu_nav {
+.im-page--back-btn, .im-mess-stack--tools a, .im-mess-stack--lnk, .left_menu_nav, .im-page-pinned--name, ._im_settings_action {
     color: var(--text) !important;
 }
