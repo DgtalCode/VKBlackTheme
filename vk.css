@@ -29,6 +29,7 @@ body.new_header_design #side_bar .left_label, h1.page_name, * {
 
 body.new_header_design .TopSearch__input {
     background-color: var(--searchline) !important;
+    color: var(--search_text) !important
 }
 
 .ts_cont_wrap {
@@ -57,6 +58,8 @@ a {
     --post_back: #232323;
     --post_back_sel: #303030;
     --searchline: #45464f;
+    --btn: #26529f;
+    --search_text: white;
 }
 
 
@@ -144,6 +147,56 @@ body.new_header_design #side_bar ol li .left_row:hover {
 .im-page_classic.im-page .im-page--dialogs-search {
     background: var(--post_back) !important;
 }
+
+
+.ui_search {
+    background-color: var(--searchline) !important;
+}
+
+input.ui_search_field {
+    color: var(--search_text) !important;
+}
+
+.im-create--tabs {
+    background: var(--post_back) !important;
+}
+
+.im-create {
+    background: var(--post_back) !important;
+}
+
+.olist_checkbox {
+    background: url("data:image/svg+xml;charset=utf-8,%3Csvg%20height%3D%2222%22%20viewBox%3D%220%200%2022%2022%22%20width%3D%2222%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22%2345464f%22%20fill-rule%3D%22evenodd%22%20transform%3D%22translate(-1074%20-1823)%22%3E%3Crect%20fill%3D%22%23red%22%20height%3D%2222%22%20rx%3D%2211%22%20width%3D%2222%22%20x%3D%221074%22%20y%3D%221823%22%2F%3E%3Crect%20height%3D%2221%22%20rx%3D%2210.5%22%20stroke%3D%22%23c1c9d1%22%20width%3D%2221%22%20x%3D%221074.5%22%20y%3D%221823.5%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") no-repeat 0 center !important;
+    fill: blue;
+}
+
+.olist_item_wrap_on .olist_checkbox {
+    background: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2222%22%20height%3D%2222%22%20viewBox%3D%220%200%2022%2022%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%2222%22%20height%3D%2222%22%20fill%3D%22%235181B8%22%20rx%3D%2211%22%2F%3E%3Cpath%20stroke%3D%22%23FFF%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20d%3D%22M6%2012l3%203%207-7%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") no-repeat 0 center !important;
+}
+
+.olist_item_wrap:hover {
+    background-color: var(--post_back_sel) !important;
+}
+
+.ui_search_filters_pane .token, .ui_multiselect_cnt .token {
+    background-color: var(--btn) !important;
+}
+
+.ui_multiselect_cnt .token .token_title {
+    color: white !important;
+}
+
+.im-create.im-create_classic .im-create--footer {
+    background: var(--post_back) !important;
+box-shadow: 0 0 0 2px var(--background) !important;
+}
+
+.im-create.im-create_classic .im-create--table {
+    box-shadow: 0 1px 0 0 transparent,0 0 0 1px transparent !important;
+}
+
+
+
 
 
 
@@ -259,8 +312,8 @@ input.text, input.search, input.big_text, input.dark, .fakeinput, div[contentedi
 
 /* PROFILE */
 
-#profile_edit_act, .flat_button.secondary {
-    background-color: #26529f !important;
+#profile_edit_act, .flat_button.secondary, .flat_button {
+    background-color: var(--btn) !important;
     color: white
 }
 
