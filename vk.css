@@ -53,7 +53,7 @@ body.new_header_design .TopSearch__input {
 
 
 a {
-    color: #2a72b9
+    color: #2a72b9 !important;
 }
 
 
