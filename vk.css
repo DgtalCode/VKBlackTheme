@@ -121,7 +121,9 @@ body.new_header_design #side_bar ol li .left_row:hover {
     background-color: var(--searchline_sel) !important;
 }
 
-
+.top_notify_count {
+    color: white !important;
+}
 
 
 
@@ -284,13 +286,16 @@ box-shadow: 0 0 0 2px var(--background) !important;
 }
 
 .im-page .im-page--history-new-bar {
+    background-color: var(--post_back) !important;
+}
+
+.im-page--history-new-bar span {
     background-color: var(--post_back_sel) !important;
 }
 
-.im-page .im-page--history-new-bar span {
-    background-color: var(--post_back_sel) !important;
+._im_unread_bar_row span {
+    background-color: var(--post_back) !important;
 }
-
 .im-mess.im-mess_unread+.im-mess::before, .im-mess.im-mess_selected+.im-mess::before {
     background: var(--post_back_sel) !important;
 }
