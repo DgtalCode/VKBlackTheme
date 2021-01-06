@@ -367,3 +367,28 @@ input.text, input.search, input.big_text, input.dark, .fakeinput, div[contentedi
 .box_body {
     background-color: var(--post_back_sel) !important;
 }
+
+
+
+
+
+
+
+
+
+/* MORE -> SECURITY */
+.landing_transparencySection__counter, .landing_transparencyHeader {
+    background-color: var(--btn) !important;
+}
+
+.landing_transparencyHeader .landing_transparencyHeader__titleName{
+    color: white;
+}
+
+.landing_transparencyFooter {
+    background: var(--post_back) !important;
+    box-shadow: inset 0 1px 0 0 var(--post_back) !important;
+}
+
+
+
