@@ -360,6 +360,10 @@ input.text, input.search, input.big_text, input.dark, .fakeinput, div[contentedi
 
 
 
+/* FRIENDS */
+.ui_tabs_header._friends_header {
+    background-color: var(--post_back) !important;
+}
 
 
 
@@ -376,7 +380,25 @@ input.text, input.search, input.big_text, input.dark, .fakeinput, div[contentedi
     background-color: var(--post_back_sel) !important;
 }
 
+.ui_search_fltr {
+    background: var(--post_back_sel) !important;
+}
 
+.ui_search_fltr div {
+    color: white !important;
+}
+
+.ui_search_fltr .selector_container {
+    background: var(--searchline) !important;
+}
+
+.results_container .result_list ul {
+    background: var(--searchline) !important;
+}
+
+.results_container .result_list ul li.active {
+    background: var(--searchline_sel) !important;
+}
 
 
 
@@ -402,6 +424,6 @@ input.text, input.search, input.big_text, input.dark, .fakeinput, div[contentedi
 
 /* LINKS COLOR FIX */
 
-.im-page--back-btn, .im-mess-stack--tools a, .im-mess-stack--lnk, .left_menu_nav, .im-page-pinned--name, ._im_settings_action {
+.im-page--back-btn, .im-mess-stack--tools a, .im-mess-stack--lnk, .left_menu_nav, .im-page-pinned--name, ._im_settings_action, .ui_tab, .friends_field a, .right_list_info.right_list_compact div a{
     color: var(--text) !important;
 }
