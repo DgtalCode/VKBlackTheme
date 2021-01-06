@@ -5,4 +5,4 @@ Css styles for VK to make a black theme
 1. Install "My Styles" app to your browser
 2. Close and open again your browser
 3. Press Ctrl+M
-4. Insert css code from this reposetory
+4. Insert css code from this repository
