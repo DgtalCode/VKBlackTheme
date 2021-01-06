@@ -367,3 +367,22 @@ input.text, input.search, input.big_text, input.dark, .fakeinput, div[contentedi
 .box_body {
     background-color: var(--post_back_sel) !important;
 }
+
+
+
+
+
+
+
+/* MORE -> SECURITY */
+
+.landing_transparencyHeader, .landing_transparencySection__counter, .wikiSubHeader::before {
+    background: var(--btn) !important;
+    color: white !important
+}
+
+.landing_transparencyHeader__titleName, .landing_transparencyHeader__navItem a {
+    color: white !important;
+}
+
+
