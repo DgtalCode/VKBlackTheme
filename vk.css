@@ -59,6 +59,7 @@ a {
     --post_back_sel: #303030;
     --searchline: #45464f;
     --btn: #26529f;
+    --text: #757678;
     --search_text: white;
 }
 
@@ -195,9 +196,13 @@ box-shadow: 0 0 0 2px var(--background) !important;
     box-shadow: 0 1px 0 0 transparent,0 0 0 1px transparent !important;
 }
 
+.nim-dialog.nim-conversation-search-row.nim-csr_classic:hover {
+    background: var() !important
+}
 
-
-
+.im-popular--name {
+    color: var(--text) !important;
+}
 
 
 
@@ -304,7 +309,7 @@ input.text, input.search, input.big_text, input.dark, .fakeinput, div[contentedi
     background: #181818 !important;
 }
 
-.im-chat-input--editing-head {
+.im-chat-input--editing-head, .im-page .im-search-results-head {
     color: #757678 !important;
 }
 
