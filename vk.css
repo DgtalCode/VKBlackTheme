@@ -129,6 +129,20 @@ body.new_header_design #side_bar ol li .left_row:hover {
 
 
 
+.box_title_wrap {
+    background-color: var(--btn) !important;
+}
+
+.box_title_wrap .box_title {
+    color: white !important;
+}
+
+.box_controls {
+    background-color: var(--post_back) !important;
+}
+
+
+
 
 
 /* MESSAGES */
@@ -382,7 +396,7 @@ input.text, input.search, input.big_text, input.dark, .fakeinput, div[contentedi
 /* POPUP START */
 
 .box_body {
-    background-color: var(--post_back_sel) !important;
+    background-color: var(--post_back) !important;
 }
 
 .ui_search_fltr {
@@ -425,6 +439,11 @@ input.text, input.search, input.big_text, input.dark, .fakeinput, div[contentedi
     box-shadow: inset 0 1px 0 0 var(--text) !important;
 }
 
+
+/* MORE -> LANGUAGE */
+.language_box_row:hover, .language_suggested {
+    background: var(--post_back_sel) !important;
+}
 
 
 /* LINKS COLOR FIX */
