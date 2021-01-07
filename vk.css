@@ -57,6 +57,12 @@ a {
 }
 
 
+.ts_contact:hover {
+    background-color: var(--searchline_sel) !important;
+}
+
+
+
 :root {
     --background: #191919;
     --post_back: #232323;
@@ -238,7 +244,9 @@ box-shadow: 0 0 0 2px var(--background) !important;
     color: var(--text) !important;
 }
 
-
+.owner_photo_additional {
+        background: var(--post_back_sel) !important;
+}
 
 
 /* LS */
@@ -368,7 +376,9 @@ input.text, input.search, input.big_text, input.dark, .fakeinput, div[contentedi
 }
 
 
-
+.pv_white_bg {
+    background-color: var(--post_back) !important;
+}
 
 
 
