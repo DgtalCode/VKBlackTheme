@@ -153,6 +153,43 @@ body.new_header_design #side_bar ol li .left_row:hover {
 
 
 
+body.new_header_design .top_nav_link.active {
+    background-color: var(--searchline) !important;
+}
+
+#top_profile_menu {
+    background: var(--searchline) !important;
+}
+
+.top_profile_vkconnect_right div {
+    color: white !important;
+}
+
+a.top_profile_mrow {
+    color: white !important;
+}
+
+
+#top_profile_menu a:hover {
+    background-color: var(--searchline_sel) !important;
+}
+
+
+
+.page_block_header {
+    background: var(--btn) !important;
+}
+
+.page_block_header div {
+    color: white !important
+}
+
+.settings_block_footer {
+    background: var(--background) !important
+}
+
+
+
 /* MESSAGES */
 .im-page .im-page--header {
     background: background: var(--post_back) !importantt;
