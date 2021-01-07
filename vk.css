@@ -402,6 +402,11 @@ input.text, input.search, input.big_text, input.dark, .fakeinput, div[contentedi
     background-color: var(--post_back_sel) !important;
 }
 
+.links-list__item:hover {
+    background-color: var(--post_back_sel) !important;
+}
+
+
 
 
 /* PROFILE */
