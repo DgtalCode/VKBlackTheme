@@ -6,8 +6,8 @@ body.new_header_design #side_bar .left_label, h1.page_name, * {
     color: #757678 !important;
 }
 
-.ui_tab_sel, .ui_tabs .ui_tab_sel, .ui_tabs_box .ui_tab_sel {
-    color: #757678 !important;
+.ui_tab_sel {
+    color: white !important;
 }
 
 
@@ -219,6 +219,16 @@ body.new_header_design .left_count_wrap {
 }
 
 
+.ui_search_button_search {
+	background: url("data:image/svg+xml;charset=utf-8,%3Csvg%20height%3D%2224%22%20viewBox%3D%221284%20207%2024%2024%22%20width%3D%2224%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22m1298.5%20222.9c-1%20.7-2.2%201.1-3.5%201.1-3.3%200-6-2.7-6-6s2.7-6%206-6%206%202.7%206%206c0%201.3-.4%202.5-1.1%203.5l2.8%202.7c.3.4.4%201.1%200%201.5-.4.3-1.1.3-1.5%200zm-3.5-.9c2.2%200%204-1.8%204-4s-1.8-4-4-4-4%201.8-4%204%201.8%204%204%204z%22%20fill%3D%22%239299A6%22%2F%3E%3C%2Fsvg%3E") var(--searchline) no-repeat center !important;
+}
+
+
+
+.DonutCatalogPromo {
+	background: var(--post_back) !important;
+	box-shadow: none !important;
+}
 
 /* MESSAGES */
 .im-page .im-page--header {
@@ -679,7 +689,7 @@ input.text, input.search, input.big_text, input.dark, .fakeinput, div[contentedi
 
 /* LINKS COLOR FIX */
 
-.im-page--back-btn, .im-mess-stack--tools a, .im-mess-stack--lnk, .left_menu_nav, .im-page-pinned--name, ._im_settings_action, .ui_tab, .friends_field a, .right_list_info.right_list_compact div a{
+.im-page--back-btn, .im-mess-stack--tools a, .im-mess-stack--lnk, .left_menu_nav, .im-page-pinned--name, ._im_settings_action, .friends_field a, .right_list_info.right_list_compact div a{
     color: var(--text) !important;
 }
 
@@ -699,6 +709,6 @@ input.text, input.search, input.big_text, input.dark, .fakeinput, div[contentedi
 
 
 
-.page_block_header, .page_block_header_inner, .page_block_header_inner div, .ui_tab{
+.page_block_header, .page_block_header_inner, .page_block_header_inner div, .ui_tab, .ui_tab span{
     color: white !important;
 }
