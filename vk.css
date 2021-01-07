@@ -176,16 +176,25 @@ a.top_profile_mrow {
 
 
 
-.page_block_header {
+.page_block_header, .ui_tabs_header {
     background: var(--btn) !important;
 }
 
-.page_block_header div {
-    color: white !important
-}
 
 .settings_block_footer {
     background: var(--background) !important
+}
+
+#settings_otp_auth_off_wrap .msg {
+    background-color: var(--post_back) !important;
+}
+
+.box_msg, .box_msg_gray {
+    background-color: var(--post_back) !important
+}
+
+.box_title .security {
+    color: white !important;
 }
 
 
@@ -455,6 +464,84 @@ input.text, input.search, input.big_text, input.dark, .fakeinput, div[contentedi
     background-color: var(--searchline_sel) !important;
 }
 
+.ms_items_more {
+    background: var(--searchline) !important
+}
+
+.ms_items_more a {
+    color: white !important;
+}
+
+.ms_items_more a:hover {
+    background: var(--searchline_sel) !important;
+}
+
+.emoji_tt_wrap {
+    background-color: var(--searchline) !important;
+}
+
+.emoji_cat_title {
+    background: var(--searchline) !important;
+}
+
+.emoji_tabs {
+    background: var(--searchline) !important;
+}
+
+.emoji_tabs_l_s, .emoji_tabs_r_s {
+    background: var(--searchline) !important;
+}
+
+.ui_scroll_shadow_bottom, .ui_scroll_shadow_top {
+    display: none;
+}
+
+.emoji_tabs_l_sc, .emoji_tabs_r_sc {
+    display: none;
+}
+
+.emoji_tabs_l_s {
+    box-shadow: 9px 0px 11px -3px rgba(50, 50, 50, 0.78) !important;
+}
+
+.emoji_tabs_r_s {
+    box-shadow: -9px 0px 11px -3px rgba(50, 50, 50, 0.78) !important;
+}
+
+.emoji_tabs {
+    box-shadow: 0px -9px 11px -3px rgba(50, 50, 50, 0.78) !important
+}
+
+.emoji_cats_title_helper:after {
+    background: linear-gradient(180deg, rgba(50, 50, 50, 0.78), rgba(50, 50, 50, 0)) !important;
+    bottom: -3px !important;
+}
+
+/*.emoji_cat_title {
+    box-shadow: 0px 9px 11px -3px rgba(50, 50, 50, 0.78) !important
+}*/
+
+
+.StickerPackSettings__styles, .StickerPackSettings__stylePreview, .StickerPackSettings__footer {
+    background: var(--post_back) !important;
+}
+
+.ModalHeader--blue {
+    background-color: var(--btn) !important
+}
+
+.ModalHeader__title {
+    color: white !important;
+}
+
+.Button--primary {
+	background-color: var(--btn) !important;
+}
+
+.ButtonWithProgress__content {
+	color: white !important;
+}
+
 
 
 
@@ -539,8 +626,33 @@ input.text, input.search, input.big_text, input.dark, .fakeinput, div[contentedi
 }
 
 
+
+
+
+
+
 /* LINKS COLOR FIX */
 
 .im-page--back-btn, .im-mess-stack--tools a, .im-mess-stack--lnk, .left_menu_nav, .im-page-pinned--name, ._im_settings_action, .ui_tab, .friends_field a, .right_list_info.right_list_compact div a{
     color: var(--text) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page_block_header, .page_block_header_inner, .page_block_header_inner div, .ui_tab{
+    color: white !important;
 }
