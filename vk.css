@@ -205,6 +205,21 @@ a.top_profile_mrow {
 
 
 
+.selector_container {
+	background: var(--searchline) !important;
+}
+
+
+body.new_header_design .left_count_wrap {
+	background-color: var(--searchline) !important;
+}
+
+.inl_bl.left_count {
+	color: white !important;
+}
+
+
+
 /* MESSAGES */
 .im-page .im-page--header {
     background: background: var(--post_back) !importantt;
