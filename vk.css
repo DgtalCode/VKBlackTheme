@@ -382,6 +382,25 @@ input.text, input.search, input.big_text, input.dark, .fakeinput, div[contentedi
     background-color: var(--post_back) !important;
 }
 
+#wk_history_wrap {
+    background: var(--post_back) !important;
+}
+
+.ui_tabs.ui_tabs_box, .wk_history_tabs {
+    background-color: var(--post_back_sel) !important;
+}
+
+#wk_box {
+    background: transparent !important;
+}
+
+.audio_row.audio_row__current .audio_row_content {
+    background-color: var(--post_back_sel) !important;
+}
+
+.audio_row:hover:not(.audio_row_current) .audio_row_content {
+    background-color: var(--post_back_sel) !important;
+}
 
 
 
