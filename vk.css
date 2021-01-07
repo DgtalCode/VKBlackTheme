@@ -57,10 +57,9 @@ a {
 }
 
 
-.ts_contact:hover {
+.ts_contact:hover, #ts_search_link:hover {
     background-color: var(--searchline_sel) !important;
 }
-
 
 
 :root {
@@ -130,6 +129,13 @@ body.new_header_design #side_bar ol li .left_row:hover {
 .top_notify_count {
     color: white !important;
 }
+
+
+
+.page_block_header div {
+	color: white !important;
+}
+
 
 
 
@@ -440,6 +446,12 @@ input.text, input.search, input.big_text, input.dark, .fakeinput, div[contentedi
     background: transparent !important;
 }
 
+
+
+.audio_row .audio_row__play_btn {
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Ccircle%20cx%3D%2212%22%20cy%3D%2212%22%20r%3D%2212%22%20fill%3D%22%2326529f%22%2F%3E%3Cpath%20fill%3D%22%23FFF%22%20d%3D%22M9.846%2016.86c-.467.303-.846.097-.846-.45V7.588c0-.551.38-.752.846-.45l6.91%204.48c.324.21.327.549%200%20.761l-6.91%204.48z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") !important;
+}
+
 .audio_row.audio_row__current .audio_row_content {
     background-color: var(--post_back_sel) !important;
 }
@@ -542,6 +554,25 @@ input.text, input.search, input.big_text, input.dark, .fakeinput, div[contentedi
 	color: white !important;
 }
 
+.emoji_sticker_item.over, [dir] .emoji_sticker_item:hover {
+	background: var(--searchline_sel) !important;
+}
+
+.im_stickers_store_wrap .ui_tabs {
+	background: var(--post_back) !important;
+}
+
+.im_stickers_bl_wrap {
+	background: var(--post_back) !important;
+}
+
+.im_sticker_bl {
+	background: var(--post_back_sel) !important;
+}
+
+.StickersButtonPrice span{
+	color: white !important;
+}
 
 
 
