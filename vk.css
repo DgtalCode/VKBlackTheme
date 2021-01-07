@@ -147,7 +147,9 @@ body.new_header_design #side_bar ol li .left_row:hover {
     background-color: var(--post_back) !important;
 }
 
-
+.photos_container .photos_row {
+    background-color: var(--post_back) !important;
+}
 
 
 
