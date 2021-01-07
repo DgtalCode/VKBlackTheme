@@ -406,6 +406,18 @@ input.text, input.search, input.big_text, input.dark, .fakeinput, div[contentedi
     background-color: var(--post_back_sel) !important;
 }
 
+.eltt {
+    background-color: var(--searchline) !important;
+}
+
+.audio_row__more_actions .audio_row__more_action {
+    background: var(--searchline) !important;
+}
+
+._audio_row__more_actions button:hover {
+    background-color: var(--searchline_sel) !important;
+}
+
 
 
 
