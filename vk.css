@@ -712,3 +712,32 @@ input.text, input.search, input.big_text, input.dark, .fakeinput, div[contentedi
 .page_block_header, .page_block_header_inner, .page_block_header_inner div, .ui_tab, .ui_tab span{
     color: white !important;
 }
+
+
+
+
+/* 	MUSIC */
+
+.audio_page_layout .audio_search_wrapper {
+	background: var(--post_back) !important;
+}
+
+.CatalogSection, .CatalogBlock--divided {
+	background: var(--post_back) !important;
+}
+
+.audio_page_layout .audio_friends_list {
+	background: var(--post_back) !important;	
+}
+
+.ui_search_new.ui_search_dark .ui_search_input_inner {
+	background-color: var(--searchline) !important;
+}
+
+.audio_page_player2.audio_page_player_fixed {
+	background-color: var(--post_back_sel) !important;
+}
+
+.audio_promo {
+	box-shadow: none !important;
+}
