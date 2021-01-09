@@ -74,6 +74,8 @@ a {
     --search_text: white;
 }
 
+
+
 .profile_info_header {
     background-color: var(--post_back) !important;
 }
@@ -105,6 +107,35 @@ body.new_header_design #side_bar ol li .left_row:hover {
 .page_actions_item:hover {
     background: var(--btn_sel) !important;
 }
+
+
+#top_notify_wrap {
+    background: var(--post_back) !important
+}
+
+.top_notify_show_all {
+    background: var(--post_back_sel) !important
+}
+
+.top_notify_cont .feedback_row_clickable:not(.feedback_row_touched):hover {
+    background-color: var(--post_back_sel) !important;
+}
+
+body.new_header_design .top_nav_btn.active {
+    background: var(--post_back_sel) !important;
+}
+
+.notify_sources_tt_content .content:not(:hover) .line_cell.selected {
+    background-color: var(--searchline_sel) !important;
+}
+
+.notify_sources_tt_content .content *:not(.cell_add_source_icon):hover {
+    background-color: var(--searchline_sel) !important;
+}
+
+
+
+
 
 
 .chat_cont_sh_bottom, .chat_cont_sh_top {
@@ -651,8 +682,13 @@ input.text, input.search, input.big_text, input.dark, .fakeinput, div[contentedi
     background-color: var(--post_back) !important;
 }
 
+.search_filters_minimized_text {
+    background: var(--searchline) url("/images/search_integration.png") no-repeat !important;
+}
 
-
+.ui_header_ext_search {
+    color: white !important;
+}
 
 
 /* ads */
