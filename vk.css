@@ -770,10 +770,21 @@ input.text, input.search, input.big_text, input.dark, .fakeinput, div[contentedi
 
 
 
+.StickerPackPreview__header {
+    background: var(--searchline) !important;
+}
 
+.StickerPackPreview__items {
+    background: var(--searchline_sel) !important;
+}
 
+.StickerPackPreview__footer {
+    background: var(--searchline) !important;
+}
 
-
+.StickerPackPreview__footer div,  .StickerPackPreview__footer div * {
+    color: white !important;
+}
 
 
 
@@ -812,4 +823,12 @@ input.text, input.search, input.big_text, input.dark, .fakeinput, div[contentedi
 
 .audio_promo {
 	box-shadow: none !important;
+}
+
+
+
+
+.search_focused .highlight {
+	background: var(--searchline) !important;
+	color: white !important;
 }
