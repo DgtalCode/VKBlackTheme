@@ -73,7 +73,9 @@ a {
     --search_text: white;
 }
 
-
+.profile_info_header {
+    background-color: var(--post_back) !important;
+}
 
 body.new_header_design #side_bar ol li .left_row:hover {
     background-color: var(--post_back_sel) !important;
