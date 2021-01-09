@@ -69,6 +69,7 @@ a {
     --searchline: #45464f;
     --searchline_sel: #4f505a;
     --btn: #26529f;
+    --btn_sel: #2070c1;
     --text: #757678;
     --search_text: white;
 }
@@ -81,11 +82,30 @@ body.new_header_design #side_bar ol li .left_row:hover {
     background-color: var(--post_back_sel) !important;
 }
 
-
+.page_actions_dd_label {
+    color: white !important;
+}
 
 .chat_onl_inner {
     background-color: var(--post_back_sel) !important;
 }
+
+.page_actions_wrap {
+    background: var(--btn) !important;
+}
+
+.page_actions_wrap span, .page_actions_wrap a {
+    color: white !important;
+}
+
+.page_actions_header {
+    background: var(--btn_sel) !important;
+}
+
+.page_actions_item:hover {
+    background: var(--btn_sel) !important;
+}
+
 
 .chat_cont_sh_bottom, .chat_cont_sh_top {
     background: linear-gradient(180deg,rgba(0,0,0,0),var(--post_back_sel) 80%) !important;
